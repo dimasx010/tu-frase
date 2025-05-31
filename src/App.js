@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and Happy Code with Tufrase v4 and GitHub Actions.
+          Edit <code>Welcome TuFrase</code> and save to reload.
         </p>
         <a
           className="App-link"
