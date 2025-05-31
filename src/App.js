@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import phrases from './data/phrases.json';
+
+
 
 function App() {
+  const phrase = () => {
+    let n = 0
+    n = Math.floor(Math.random() * phrases.length)
+    console.log("Hola desde la función");
+    return phrases[n]
+  };
+  const onePhrase = phrase()
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>Welcome TuFrase</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h3>"{onePhrase['title']}"</h3>
+        <p>- {onePhrase['author']}</p>
       </header>
     </div>
   );
