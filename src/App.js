@@ -17,7 +17,7 @@ function App() {
         <h3>"{onePhrase['title']}"</h3>
         <p>- {onePhrase['author']}</p>
 <a></a>
-        <a href="https://github.com/dimasx010/tu-frase" target="_blank">🔗 Source</a>
+        <a href="https://github.com/dimasx010/tu-frase" target="_blank" rel="noreferrer">🔗 Source</a>
       </header>
     </div>
   );
