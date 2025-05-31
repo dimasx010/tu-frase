@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Deploy V4
 on:
     workflow_dispatch:
 permissions:
