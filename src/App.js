@@ -16,6 +16,8 @@ function App() {
       <header className="App-header">
         <h3>"{onePhrase['title']}"</h3>
         <p>- {onePhrase['author']}</p>
+<a></a>
+        <a href="https://github.com/dimasx010/tu-frase" target="_blank">🔗 Source</a>
       </header>
     </div>
   );
